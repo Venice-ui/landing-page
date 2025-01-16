@@ -95,7 +95,54 @@ a {
     max-width: 500px;
 }
 
+/*Image styling */
 .right-side {
     display: flex;
     margin-left: auto;
+}
+
+/*Mid-text styling */
+.mid-text {
+    display: flex;
+    height: 500px;  
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Card container styling */
+.card-title {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    font-size: 20px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+/*Card container styling */
+.container {
+    display: flex;
+    margin-top: 50px;;
+    padding-left: 70px;
+    gap: 30px;
+    justify-content: space-around;
+}
+/*Actual card styling */
+.picture {
+    height: 170px;
+    width: 100%;
+    max-width: 170px;
+    border: solid #3882F6 3px;
+    border-radius: 15px;
+}
+
+figcaption {
+    width: 100%;
+    max-width: 170px;
+    text-align: center;
+    padding-top: 10px;
 }
