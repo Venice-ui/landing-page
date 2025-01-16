@@ -1,0 +1,32 @@
+.body {
+    height: 100vh;
+    display: flex;
+}
+
+.header {
+    background-color: #1F2937;
+    margin:0;
+    display: flex;
+    width: 100%;
+}
+
+.title {
+    font-family: "Roboto";
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    margin-left: auto;
+
+}
+
+.link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
