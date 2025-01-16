@@ -1,26 +1,49 @@
-.body {
-    height: 100vh;
-    display: flex;
+/* Resetting defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+/* Body styles */
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header styles */
 .header {
     background-color: #1F2937;
-    margin:0;
     display: flex;
     width: 100%;
+    height: 60px;
+    padding: 10px;
+    align-items: center;
 }
 
+/* Title styles */
 .title {
-    font-family: "Roboto";
     font-size: 24px;
     color: #F9FAF8;
+    padding-left: 70px;
 }
 
+/* Links container styles */
 .links {
     margin-left: auto;
-
+    gap: 16px;
+    display: flex;
+    align-items: center;
 }
 
+/* Individual link styles */
 .link {
     font-size: 18px;
     color: #E5E7EB;
@@ -29,4 +52,50 @@
 a {
     text-decoration: none;
     color: #F9FAF8;
+}
+
+/* Main part of page styling */
+.top-text {
+    background-color: #1F2937;
+    height: 400px;
+    display: flex;
+}
+
+/* Big title styling */
+.title-2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+
+}
+
+/*Description styling*/
+.description {
+    font-size: 18px;
+    color: #F9FAF8
+}
+
+/*Button styling */
+.sign-up {
+    margin-right: auto;
+    padding: 8px 16px;
+    margin-top: 10px;
+    border-radius: 1.5rem 50% 20px 5px;
+    background-color: #3882F6;
+    color: #F9FAF8
+}
+
+/* Main text styling */
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding-left: 70px;
+    max-width: 500px;
+}
+
+.right-side {
+    display: flex;
+    margin-left: auto;
 }
