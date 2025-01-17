@@ -187,7 +187,9 @@ figcaption {
 /*Ad button */
 .ad {
     display: flex;
-    margin: 100px 200px;
+    margin: 100px 90px;
+    height: 100px;
+    width: 700px;
     padding: 30px;
     background-color: #3882F6;
     border-radius: 6px;
